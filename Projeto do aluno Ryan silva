@@ -1,0 +1,107 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-fundo:#EBECEE;
+    --branco: #ffffff;
+    --laranja: #eb9800;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --font-principal: "Poppins";
+    --font-secondary: "Josefin Sans";
+    --black: #000;
+    --cinza: #464646;
+    --cinza-claro: #858585;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* CSS BANNER
+
+.banner {
+    background: var(--azul-gradiente);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    border-radius: 24px;
+    color: var(--branco);
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--font-principal);
+    font-size: 0.875em;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 0.5em;
+}
+
+@media screen and (min-width: 820px) {
+    .banner__titulo {
+        font-size: 2.25em;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (min-width: 1366px) {
+    .banner__pesquisa {
+        width: 40%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 30%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+}
+*/
